@@ -38,7 +38,7 @@
     {
         echo '<h2>It\'s the weekend!!!</h2>';
     }
-    elseif($day == 5 or $hour >= 12)
+    elseif($day == 5 and $hour >= 12)
     {
         echo '<h2>It\'s almost the weekend!</h2>';
     }
